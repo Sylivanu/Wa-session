@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Session Generator</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SilvaTechB - Session Generator</title>
   <style>
     body {
       display: flex;
@@ -12,74 +12,43 @@
       justify-content: center;
       height: 100vh;
       margin: 0;
-      background-color: black;
+      background-color: #1a1a2e;
+      font-family: 'Poppins', sans-serif;
     }
 
     .btn {
-      --color: #e5f5f1;
-      --color2: rgb(0, 0, 0);
-      width: 200px;
-      padding: 0.8em 1.75em;
-      background-color: transparent;
-      border-radius: 6px;
-      border: .3px solid var(--color);
-      transition: .5s;
-      position: relative;
-      overflow: hidden;
-      cursor: pointer;
-      z-index: 1;
-      font-weight: 300;
-      font-size: 17px;
-      font-family: 'Roboto', 'Segoe UI', sans-serif;
+      width: 220px;
+      padding: 0.9em 1.8em;
+      background: linear-gradient(135deg, #6a11cb, #2575fc);
+      border: none;
+      border-radius: 8px;
+      color: white;
+      font-size: 18px;
+      font-weight: 500;
       text-transform: uppercase;
-      color: var(--color);
-      margin-bottom: 24px;
-    }
-
-    .btn::after, .btn::before {
-      content: '';
-      display: block;
-      height: 100%;
-      width: 100%;
-      transform: skew(90deg) translate(-50%, -50%);
-      position: absolute;
-      inset: 50%;
-      left: 25%;
-      z-index: -1;
-      transition: .5s ease-out;
-      background-color: var(--color);
-    }
-
-    .btn::before {
-      top: -50%;
-      left: -25%;
-      transform: skew(90deg) rotate(180deg) translate(-50%, -50%);
-    }
-
-    .btn:hover::before {
-      transform: skew(45deg) rotate(180deg) translate(-50%, -50%);
-    }
-
-    .btn:hover::after {
-      transform: skew(45deg) translate(-50%, -50%);
+      cursor: pointer;
+      transition: 0.3s ease;
+      margin: 10px;
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
     }
 
     .btn:hover {
-      color: var(--color2);
+      transform: scale(1.05);
+      box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.3);
     }
 
     .btn:active {
-      filter: brightness(.7);
-      transform: scale(.98);
+      transform: scale(0.98);
+      box-shadow: none;
     }
   </style>
 </head>
 <body>
 
-  <button onclick="window.open(`/qr`)" class="btn">qr code</button>
-  <button onclick="window.open(`/pair`)" class="btn">pair code</button>
-  <button onclick="window.open(`https://github.com/Maher-Zubair/SIGMA-MD`)" class="btn">github</button>
+  <button onclick="window.open('/qr')" class="btn">Generate QR Code</button>
+  <button onclick="window.open('/pair')" class="btn">Generate Pair Code</button>
+  <button onclick="window.open('https://github.com/SilvaTechB')" class="btn">GitHub SilvaTechB</button>
+  <button onclick="window.open('https://github.com/Sylivanu')" class="btn">GitHub Sylivanu</button>
   
-
 </body>
 </html>
