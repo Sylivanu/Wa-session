@@ -1,10 +1,10 @@
-# *MADE WITH 🤍 BY MAHER ZUBAIR*
+# *MADE WITH 🤍 BY Silva Tech Inc.*
 
 
 ## *NOTE*
-- *SESSION ID GENERATOR FOR X-ASENA AND SECKTOR MD BASED BOTS*
+- *SESSION ID GENERATOR FOR base 64 BASED BOTS*
 - *IN ORDER TO USE PAIR CODE AND SESSION ID'S YOU HAVE TO USE*
-- *"maher-zubair-baileys": "^6.6.5" OR "@whiskeysockets/baileys": "^6.5.0" IN YOUR BOT*
+- *"maher-zubair-baileys": "^6.6.5" OR "@whiskeysockets/baileys": "^6.6.0" IN YOUR BOT*
 - *OTHER-WISE THE PAIR CODE WILL NOT WORK AND NOR SESSIOND ID'S*
 
 
